@@ -32,7 +32,7 @@ export default function Navigation() {
                         <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                         <button className="btn text-white" type="submit"><i class="bi bi-search"></i></button>
                     </form>
-                    <NavLink ><button className="btn btn-outline-light ms-2">Sign up</button></NavLink>
+                    <button className="btn btn-outline-light ms-2">Sign up</button>
                 </div>
             </div>
         </nav>
