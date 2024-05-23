@@ -16,26 +16,26 @@ export default function Navigation() {
                 <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link active" href="#">Home <span className="visually-hidden">(current)</span></NavLink>
+                            <NavLink className="nav-link active" to="/home">Home <span className="visually-hidden">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" href="#">Recursos</NavLink>
+                            <NavLink className="nav-link" to="#">Recursos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" href="#">Comunidad</NavLink>
+                            <NavLink className="nav-link" to="#">Comunidad</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" href="#">Proyectos</NavLink>
+                            <NavLink className="nav-link" to="#">Proyectos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" href="#">Eventos</NavLink>
+                            <NavLink className="nav-link" to="#">Eventos</NavLink>
                         </li>
                     </ul>
                     <form className="d-flex">
                         <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                         <button className="btn text-white" type="submit"><i class="bi bi-search"></i></button>
                     </form>
-                    <NavLink ><button className="btn btn-outline-light ms-3">Sign up</button></NavLink>
+                    <NavLink ><button className="btn btn-outline-light ms-2">Sign up</button></NavLink>
                 </div>
             </div>
         </nav>

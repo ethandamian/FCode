@@ -1,0 +1,10 @@
+h2, h3{
+    color: #134075;
+}
+
+.article{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #134075;
+    border-radius: 10px;
+}

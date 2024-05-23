@@ -16,7 +16,6 @@ function App() {
         errorElement: <Error/>,
         children: [
           {path: '/', element: <Login/>},
-          {path: '/login', element: <Login/>},
           {path: '/home', element: <Home/>}
         ]
 
