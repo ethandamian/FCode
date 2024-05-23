@@ -3,7 +3,7 @@ import "./Home.css"
 
 export default function Home(){
     return (
-        <div>
+        <>
             <h2>Hola Roni! ¿Listo para aprender cosas nuevas?</h2>
             <div>
                 <div className="article">
@@ -45,6 +45,6 @@ export default function Home(){
                 </div>
                 <NavLink><button className="btn btn-normal mt-3">Descubre nuevos artículos</button></NavLink>
             </div>
-        </div>
+        </>
     )
 }
