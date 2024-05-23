@@ -16,19 +16,16 @@ export default function Navigation() {
                 <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link active" to="/home">Home <span className="visually-hidden">(current)</span></NavLink>
+                            <NavLink className="nav-link" to="/recursos">Recursos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="#">Recursos</NavLink>
+                            <NavLink className="nav-link" to="/comunidad">Comunidad</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="#">Comunidad</NavLink>
+                            <NavLink className="nav-link" to="/proyectos">Proyectos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="#">Proyectos</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="#">Eventos</NavLink>
+                            <NavLink className="nav-link" to="/eventos">Eventos</NavLink>
                         </li>
                     </ul>
                     <form className="d-flex">
