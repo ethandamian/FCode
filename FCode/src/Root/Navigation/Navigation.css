@@ -1,29 +1,38 @@
 .barra{
     background-color: #134075;
     color: #fff;
-    display: flex;
-    justify-content: space-between;
+    
     padding: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
 }
 
 /* Navigation.css */
-.navbar {
-    margin-bottom: 50%;
+.nav-content{
+    display: flex;
+    justify-content: space-between;
 }
 
+.nav-links{
+    display: flex;
+}
+
+
+.search-bar{
+    padding: 0 1.5rem;
+}
 .navbar-brand {
     font-size: 1.5rem;
 }
 
 .navbar-nav .nav-link {
     margin-right: 10px;
+    color: white;
+    font-weight: bold;
 }
 
 .navbar-nav .dropdown-menu {
     background-color: #343a40; /* Same as bg-dark */
+}
+
+.login-form{
+    width: 360px;
 }
