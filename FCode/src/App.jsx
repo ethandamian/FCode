@@ -1,5 +1,7 @@
-import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import { Toaster } from 'sonner'
+
 import './App.css'
 import Root from './Root/Root'
 import Recursos from './Pages/Recursos/Recursos'
@@ -16,20 +18,25 @@ function App() {
       {
         path: "/",
         element: <Root />,
-        errorElement: <Error/>,
+        errorElement: <Error />,
         children: [
-          {path: '/', element: <Login/>},
-          {path: '/recursos', element: <Recursos/>},
-          {path:'/eventos', element:<Eventos/>},
-          {path: '/proyectos', element: <Proyectos/>},
-          {path: '/comunidad', element: <Comunidad/>}
+          { path: '/', element: <Login /> },
+          { path: '/recursos', element: <Recursos /> },
+          { path: '/eventos', element: <Eventos /> },
+          { path: '/proyectos', element: <Proyectos /> },
+          { path: '/comunidad', element: <Comunidad /> }
         ]
 
       }
     ]
   )
 
-  return <RouterProvider router={router}/>
+  return (
+    <>
+      <Toaster richColors />
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App
