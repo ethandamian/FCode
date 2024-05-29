@@ -10,7 +10,8 @@ export default function Root() {
             <main className="main-space">
                 <Outlet />
             </main>
-            <Footer/> 
+            <Footer/>
+            
         </>
     )
 }
