@@ -4,9 +4,9 @@ import "./Recursos.css"
 export default function Recursos() {
     return (
         <>
-            <h2>Hola Roni! ¿Listo para aprender cosas nuevas?</h2>
+            <h2 className="mb-5">Hola Roni! ¿Listo para aprender cosas nuevas?</h2>
             <div className="article">
-                <h3>Últimos artículos visitados</h3>
+                <h3 className="mt-2 mb-4 ultimos">Últimos artículos visitados</h3>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-4 col-lg-4 col-xl-3">
@@ -52,7 +52,9 @@ export default function Recursos() {
                     </div>
                 </div>
             </div>
-            <NavLink><button className="btn btn-normal mt-3">Descubre nuevos artículos</button></NavLink>
+            <div className="text-center">
+                <NavLink><button className="btn btn-normal mt-3">Descubre nuevos artículos</button></NavLink>
+            </div>
         </>
     )
 }
